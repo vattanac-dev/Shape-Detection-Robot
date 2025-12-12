@@ -1,1 +1,14 @@
-venv/
+# Ignore everything
+*
+
+# But keep these
+!data/
+!data/**
+
+!models/
+!models/**
+
+!webcam-test.py
+
+# Keep this file too
+!.gitignore
